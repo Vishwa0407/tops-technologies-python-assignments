@@ -22,5 +22,3 @@ print("Addition :",a+b)
 print("sub:",a-b)
 print("multiply :",a*b)
 print("Div :",a/b)
-
-

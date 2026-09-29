@@ -27,4 +27,3 @@ print("od numbers count :",od)
 print("Even numbers Sum :",evsum)
 print("odd numbers Sum :",odsum)
 print("Total sum",sum)
-

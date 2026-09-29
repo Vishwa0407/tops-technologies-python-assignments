@@ -5,7 +5,7 @@ When our program goes to multiple ways it is called conditional statements
 
 3) types 
 
-1.   Normal if/else
+1.  Normal if/else
 2.  ladder if/else 
 3.  nested is/else
 

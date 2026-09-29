@@ -24,5 +24,3 @@ a,b=b,a
 
 print("After swapping A:",a) 
 print("After swapping B:",b) 
-
-
