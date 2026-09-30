@@ -1,0 +1,36 @@
+Question : Explain the difference between how Python executes code versus how C or Java executes code, using your own words and a simple example for each.
+
+Answer:
+
+The difference between Python , C , Java is that they execute the code in a different ways 
+
+Python : 
+    Python is generally executed by the python interpreter. The python code is converted into the bytecode, and
+    the python virtual machine executes them 
+
+Example :
+
+x = 10 
+y = 20 
+print(x+y)
+
+On the above example python runs the code and prints the 30
+
+C: 
+    it is usually compiled before execution.The C compiler converts the source code into machine code, which
+    the computer's CPU can executes directly
+
+Example:
+
+int x = 10;
+int y = 20;
+printf("%d",x+y);
+
+Java :
+    it is first compiled into a bytecode.The Java virtual machine then executes this bytecode
+
+Example:
+
+int x = 10;
+int y = 20;
+System.out.println(x+y);
