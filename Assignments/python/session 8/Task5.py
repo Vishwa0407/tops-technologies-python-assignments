@@ -1,0 +1,1 @@
+# 5. Create a function mask_phone_number(phone) that takes a 10-digit phone number as a string and returns it in the format '******1234', showing only the last 4 digits like Paytm does.<br><br><em><strong>Hint:</strong> Use string slicing and concatenation.</em>
