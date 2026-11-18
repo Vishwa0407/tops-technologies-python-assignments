@@ -1,0 +1,7 @@
+'''
+1. <p>Create 'kirana_bill.py' with three lists of 8 grocery items: `items` (names), `prices` (₹ per unit, such as 49.5 or 112.75) and `qty` (1 to 5). Use `zip()` to loop through all three lists together and print each item with its line amount (price x quantity) rounded to 2 decimals with `round()`. Hint: `zip(items, prices, qty)` gives one tuple per row. Constraint: Do not use `range()` or indexes.</p>
+2. <p>Extend 'kirana_bill.py' to add 5% GST on every line. Build a new list `line_totals` with a loop, where each GST-inclusive line amount is rounded to 2 decimals, and print the bill total and the total GST. Hint: Round each line before adding it to the total, so that the printed lines add up to the printed total.</p>
+3. <p>Add a 'Top 3 costliest items' section to 'kirana_bill.py'. Combine `line_totals` and `items` with `zip()` into a list of (amount, name) tuples, order it from highest to lowest with `sorted()` and `reverse=True`, and print the first three. Hint: Tuples are compared from the first element, so the amount must come first. Constraint: Do not use the `key` argument.</p>
+4. <p>Finish 'kirana_bill.py' by building a list `premium_items` with the names of items priced above ₹100, arranging it A to Z with `.sort()`, and printing it under 'Premium items'. Make sure at least 3 of your items cost more than ₹100. Run the whole program and paste the output as a comment at the end of the file. Hint: `.sort()` returns None, so write `premium_items.sort()` on its own line.</p>
+
+'''

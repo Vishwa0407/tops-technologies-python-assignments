@@ -1,0 +1,7 @@
+'''
+1. <p>Create a file named 'train_timetable.py' with a tuple `routes` holding 6 route tuples. Each route is a mixed tuple: train name (a fictional name), from city, to city, departure time as an 'HH:MM' string, distance in km (integer) and AC available (True or False). Use real Indian cities. Print each route as one readable line.</p>
+2. <p>Extend 'train_timetable.py' to use slicing. For every route, print the two cities with `route[1:3]` and the last two fields with `route[-2:]`. Then print the first three routes with `routes[:3]` and every second route with a step of 2. Hint: The end index of a slice is excluded, so `route[1:3]` stops before index 3.</p>
+3. <p>Write a function `reschedule(routes, index, new_time)` in 'train_timetable.py' that returns a new `routes` tuple in which only the route at that index has the new departure time. If the index is not valid, print 'Invalid route number' and return `routes` unchanged. Print the old and new tuples to show the change. Constraint: Do not assign to a tuple; convert with `list()` and back with `tuple()`.</p>
+4. <p>Finish 'train_timetable.py' with a function `fare(route)` that returns the fare rounded to 2 decimals: distance x ₹1.20 for non-AC and distance x ₹2.10 for AC. Print a fare table with train name, from city, to city and fare for all 6 routes. Test `reschedule` with index 2 and index 8 and paste all outputs as a comment at the end of the file.</p>
+
+'''

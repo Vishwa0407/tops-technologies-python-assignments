@@ -1,0 +1,7 @@
+'''
+1. <p>Create 'tuition_fee_book.py' with two lists of 8 entries for a fictional tuition class: `students` (names) and `fees` (monthly fee in ₹, between 800 and 2,500). Use `zip()` to convert them into a dictionary named `fee_book`, then loop with `items()` and print one 'name: ₹fee' line per student.</p>
+2. <p>Add a list `status` of 8 strings, each 'Paid' or 'Pending', to 'tuition_fee_book.py'. Build a dictionary `paid_status` from `students` and `status` using a for loop with `range(len(students))` instead of `zip()`. Then print the names of all students whose status is 'Pending'. Hint: Add each pair with `paid_status[students[i]] = status[i]`.</p>
+3. <p>Combine the two dictionaries in 'tuition_fee_book.py' into one nested dictionary `ledger`, where each student maps to {'fee': ..., 'status': ...}. Build it with a loop over `fee_book.items()`. Print the total pending amount in ₹ and the number of students who have paid.</p>
+4. <p>Finish 'tuition_fee_book.py' with a function `lists_to_dict(keys, values)` that returns the dictionary, but prints 'Lists differ in length' and returns an empty dictionary when the two lists have different lengths. Use it for `ledger`. Test with your 8 names and 8 fees, and with 8 names and 7 fees. Paste both outputs as a comment at the end of the file. Hint: `len()` works on lists.</p>
+
+'''

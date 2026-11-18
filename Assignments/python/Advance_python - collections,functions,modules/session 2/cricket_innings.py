@@ -1,0 +1,7 @@
+'''
+1. <p>Create a file named 'cricket_innings.py' with a list `overs` holding the runs scored in each of 20 overs by a fictional team, 'Sabarmati Strikers', with every value between 0 and 22. Use a for loop directly on the list to calculate and print the total score and the number of overs in which 10 or more runs were scored.</p>
+2. <p>Extend 'cricket_innings.py' to loop with `range(len(overs))` and print 'Over N: runs' for every over, with N starting at 1. Then print the over number with the highest runs and the over number with the lowest runs; for a tie, report the first one. Constraint: Do not use `max()`, `min()`, `sum()` or `enumerate()`; use a loop and indexing.</p>
+3. <p>Add a list `cumulative` to 'cricket_innings.py' that holds the running total after each over, built with a loop over `range(len(overs))` and `append()`. Print each over's running total next to its runs. Hint: For index `i` above 0, the running total is `cumulative[i - 1] + overs[i]`; the first over is just `overs[0]`.</p>
+4. <p>Finish 'cricket_innings.py' by printing the over number in which the running total first reached 50, 100 and 150, or 'not reached' when it never did. Run the program for your 20-over list and for a second list of only 8 overs, so that it works with any list length. Paste both outputs as a comment at the end of the file. Hint: Use `len(overs)` instead of the number 20.</p>
+
+'''

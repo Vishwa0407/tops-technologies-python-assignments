@@ -1,0 +1,7 @@
+'''
+1. <p>Create 'fest_feedback.py' with a string `feedback` of at least 60 lowercase words, made of 5 invented visitor comments about a fictional college fest. Build a dictionary `char_freq` that counts how many times each letter appears, ignoring spaces and punctuation, and print every letter and its count in alphabetical order. Hint: `ch.isalpha()` filters letters; check `if ch in char_freq` before adding one to a count. Constraint: Count with a for loop; do not use `count()`.</p>
+2. <p>Extend 'fest_feedback.py' with a word count. Remove the characters . , ! ? from `feedback` using `replace()`, split it into words with `split()`, and build a dictionary `word_freq` of word counts. Print only the words that appear 2 or more times, with their counts. Make sure your text repeats at least 3 words.</p>
+3. <p>Add a 'Top word' line to 'fest_feedback.py' that loops through `word_freq.items()` and prints the most frequent word and its count, ignoring the stop words in your list `['the', 'and', 'was', 'a', 'is', 'to']`. For a tie, keep the first word found. Constraint: Do not use `max()`; track the highest count with a variable.</p>
+4. <p>Finish 'fest_feedback.py' by wrapping the word counting in a function `analyse(text)` that prints total words, unique words and the top word for any text the user types with `input()`. Print 'No words found' for empty text. Test with an empty text, 'Great food, great music, great crowd!' (top word: great, 3 times) and one comment of your own. Paste the outputs as a comment at the end of the file.</p>
+
+'''
